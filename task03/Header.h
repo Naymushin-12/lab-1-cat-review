@@ -3,8 +3,8 @@
 //более трех подряд идущих нулей.Для того, чтобы избежать переполнения, ответ
 //представьте в виде вещественного числа.
 
-#ifndef Header03
-#define Header03
+#ifndef Header
+#define Header
 
 #include <iostream>
 #include <string>
@@ -17,4 +17,4 @@ bool ValidateInput(int InBase, int InDigitCount, std::string& OutErrorMessage);
 
 double CountValidNumbers(int InBase, int InDigitCount);
 
-#endif // Header03
+#endif // Header
